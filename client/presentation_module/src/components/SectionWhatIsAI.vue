@@ -5,7 +5,7 @@
 
     <section
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.15">
       <h1>
         What is AI?
@@ -15,7 +15,7 @@
 
     <section
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.15"
         data-transition="concave">
       <h2>but, first:</h2>
@@ -25,7 +25,7 @@
 
     <section
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.15"
         data-transition="concave">
       <h1>
@@ -37,7 +37,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.3"
         data-auto-animate>
       <p>Steal jobs</p>
@@ -46,7 +46,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.3"
         data-auto-animate>
       <p>
@@ -60,7 +60,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.3"
         data-auto-animate>
       <p>
@@ -76,7 +76,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart5.webp"
+        data-background-image="/master-class-udacity/static/pixelart5.webp"
         data-background-opacity="0.3"
         data-auto-animate>
       <p>
@@ -90,7 +90,7 @@
       </p>
     </section>
 
-    <section data-background-size="contain" data-background-image="/static/meme1.webp">
+    <section data-background-size="contain" data-background-image="/master-class-udacity/static/meme1.webp">
 
 
     </section>
@@ -102,7 +102,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart6.webp"
+        data-background-image="/master-class-udacity/static/pixelart6.webp"
         data-background-opacity="0.15">
       <h1>
         <span>What is AI?</span>
@@ -112,7 +112,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart6.webp"
+        data-background-image="/master-class-udacity/static/pixelart6.webp"
         data-background-opacity="0.3">
       <p>
         Augment skills
@@ -128,7 +128,7 @@
     <section
         data-transition="concave-in convex-out"
         data-background-size="cover"
-        data-background-image="/static/pixelart6.webp"
+        data-background-image="/master-class-udacity/static/pixelart6.webp"
         data-background-opacity="0.3">
       <h1>
         <span>What has changed?</span>
@@ -146,7 +146,7 @@
 
     <section
         data-background-size="contain"
-        data-background-image="/static/pixelart7.webp"
+        data-background-image="/master-class-udacity/static/pixelart7.webp"
         data-background-opacity="0.15">
       <h1>
         <span>Transformers Architecture</span>
@@ -170,7 +170,7 @@
 
     <section
         data-background-size="contain"
-        data-background-image="/static/pixelart7.webp"
+        data-background-image="/master-class-udacity/static/pixelart7.webp"
         data-background-opacity="0.15">
       <h1>
         <span>Translates to:</span>
@@ -192,7 +192,7 @@
 
     <section
         data-background-size="contain"
-        data-background-image="/static/pixelart7.webp"
+        data-background-image="/master-class-udacity/static/pixelart7.webp"
         data-background-opacity="0.15">
       <h1>
         <span>What has changed after all?</span>

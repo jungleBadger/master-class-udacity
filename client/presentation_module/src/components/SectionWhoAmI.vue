@@ -3,11 +3,11 @@
 
   <section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart8.webp" data-background-opacity="0.18" data-auto-animate>
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart8.webp" data-background-opacity="0.18" data-auto-animate>
       <h2><span style="font-size: 1em; font-weight: bold; color: #00FFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Closing the gap:</span> <span style="font-size: 1.1em; color: #FFFFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-weight: normal">Enhancing web development with AI capabilities</span></h2>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart8.webp" data-background-opacity="0.18" data-auto-animate>
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart8.webp" data-background-opacity="0.18" data-auto-animate>
       <h2><span style="font-size: 1em; font-weight: bold; color: #00FFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);">Closing the gap:</span> <span style="font-size: 1.1em; color: #FFFFFF; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); font-weight: normal">Enhancing web development with AI capabilities</span></h2>
       <h3 style="font-size: 1.2em; color: #FFD700; font-weight: bold; text-align: center; text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); margin-top: 30px;">
         By Daniel Abrao</h3>
@@ -15,7 +15,7 @@
 
 
 
-    <section data-background-size="cover" data-background-image="/static/pic3.jpg" data-background-opacity="0.25">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pic3.jpg" data-background-opacity="0.25">
       <h1 class="header-title">
         Companies
       </h1>
@@ -29,7 +29,7 @@
 
 
 
-    <section data-background-size="cover" data-background-image="/static/pic1.jpg" data-background-opacity="0.25">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pic1.jpg" data-background-opacity="0.25">
       <h1 class="header-title">
         Skills
       </h1>

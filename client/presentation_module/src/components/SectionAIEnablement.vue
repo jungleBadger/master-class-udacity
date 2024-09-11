@@ -5,7 +5,7 @@
       <h1>AI Services</h1>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart2.webp" data-background-opacity="0.15">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart2.webp" data-background-opacity="0.15">
       <h1 class="header-title">
         Inference endpoints
       </h1>
@@ -20,7 +20,7 @@
       </p>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart2.webp" data-background-opacity="0.15">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart2.webp" data-background-opacity="0.15">
       <h1 class="header-title">
         Models as a Service
       </h1>

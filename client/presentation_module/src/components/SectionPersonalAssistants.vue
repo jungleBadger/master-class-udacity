@@ -5,7 +5,7 @@
       <h1>Personal Assistants</h1>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart2.webp" data-background-opacity="0.15">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart2.webp" data-background-opacity="0.15">
       <h1 class="header-title">
         Voice assistants
       </h1>
@@ -20,7 +20,7 @@
       </p>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart2.webp" data-background-opacity="0.15">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart2.webp" data-background-opacity="0.15">
       <h1 class="header-title">
         UI-based assistants
       </h1>
@@ -35,7 +35,7 @@
       </p>
     </section>
 
-    <section data-background-size="cover" data-background-image="/static/pixelart2.webp" data-background-opacity="0.15">
+    <section data-background-size="cover" data-background-image="/master-class-udacity/static/pixelart2.webp" data-background-opacity="0.15">
       <h1 class="header-title">
         Code assistants
       </h1>

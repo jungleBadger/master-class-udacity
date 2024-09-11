@@ -2,11 +2,11 @@
 
   <section>
     <section
-        data-background-video="/static/flame-bg-frame.mp4">
+        data-background-video="/master-class-udacity/static/flame-bg-frame.mp4">
       Thank you
     </section>
 
-    <section data-background-size="contain" data-background-image="/static/pic6.jpg"></section>
+    <section data-background-size="contain" data-background-image="/master-class-udacity/static/pic6.jpg"></section>
 
     <section>
       And remember...

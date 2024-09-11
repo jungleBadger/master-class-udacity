@@ -2,7 +2,7 @@
 
 
 
-  <section data-background-size="cover" data-background-image="/static/pic7.jpg" data-background-opacity="0.4">
+  <section data-background-size="cover" data-background-image="/master-class-udacity/static/pic7.jpg" data-background-opacity="0.4">
     <h1 class="header-title">
       Contact
     </h1>
