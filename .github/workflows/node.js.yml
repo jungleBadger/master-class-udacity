@@ -38,6 +38,10 @@ jobs:
       # Run tests
       - run: npm test
 
+      - name: Combine Directories for Deployment
+        run: |
+          mkdir combined_dist
+          cp -r ./client/static/ ./client/presentation_module/dist/static/
       # Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         if: github.ref == 'refs/heads/main'
