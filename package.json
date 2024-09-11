@@ -4,13 +4,13 @@
   "main": "start.js",
   "scripts": {
     "start": "node start.js",
-    "start:dev": "npm run build:client && concurrently \"npm run livereload:server\" \"npm run livereload:client\"",
+    "start:dev": "npm run build && concurrently \"npm run livereload:server\" \"npm run livereload:client\"",
     "livereload:server": "npx nodemon --config nodemon.json",
-    "build:client": "vite build --config client/presentation_module/vite.config.mjs --mode production",
+    "build": "vite build --config client/presentation_module/vite.config.mjs --mode production",
     "livereload:client": "vite serve --config client/presentation_module/vite.config.mjs --host",
     "lint": "npx eslint --fix --config eslint.config.mjs",
     "format": "prettier --write . --config .prettierrc.config.mjs",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "authors": [
     "jungleBadger"
