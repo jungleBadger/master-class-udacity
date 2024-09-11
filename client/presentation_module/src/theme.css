@@ -1,0 +1,93 @@
+/**
+ * Udacity-inspired theme for reveal.js.
+ * Author: Based on Udacity brand style
+ */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&display=swap');
+
+/*********************************************
+ * GLOBAL STYLES (Dark Theme for Online Presentations)
+ *********************************************/
+:root {
+    --r-background-color: #0f1c4f; /* Udacity dark blue background */
+    --r-main-font: 'IBM Plex Sans', sans-serif;
+    --r-main-font-size: 40px;
+    --r-main-color: #ffffff; /* White text */
+    --r-block-margin: 20px;
+    --r-heading-margin: 0 0 20px 0;
+    --r-heading-font: 'IBM Plex Sans', sans-serif;
+    --r-heading-color: #FFFFFF; /* Purple for headings */
+    --r-heading-line-height: 1.2;
+    --r-heading-letter-spacing: normal;
+    --r-heading-text-transform: uppercase;
+    --r-heading-font-weight: 500;
+    --r-heading1-size: 3.77em;
+    --r-heading2-size: 2.11em;
+    --r-heading3-size: 1.55em;
+    --r-heading4-size: 1em;
+    --r-code-font: monospace;
+    --r-link-color: #23d2e2; /* Light blue for links */
+    --r-link-color-hover: #78b9e6; /* Hover color */
+    --r-selection-background-color: #e9a11a; /* Yellow for selections */
+    --r-selection-color: #ffffff;
+}
+
+.reveal-viewport {
+    background-color: var(--r-background-color);
+}
+
+.reveal {
+    font-family: var(--r-main-font);
+    font-size: var(--r-main-font-size);
+    font-weight: normal;
+    color: var(--r-main-color);
+}
+
+.reveal h1, h2, h3, h4, h5, h6 {
+    color: var(--r-heading-color);
+    text-transform: uppercase;
+}
+
+/*********************************************
+ * PARAGRAPHS & TEXT
+ *********************************************/
+.reveal p {
+    margin: var(--r-block-margin) 0;
+    line-height: 1.5;
+    color: var(--r-main-color);
+}
+
+.reveal a {
+    color: var(--r-link-color);
+    text-decoration: none;
+}
+
+.reveal a:hover {
+    color: var(--r-link-color-hover);
+}
+
+/*********************************************
+ * LIGHT THEME FOR PRESENTIAL PRESENTATIONS
+ *********************************************/
+:root.light-theme {
+    --r-background-color: #f8f9fa; /* Light background */
+    --r-main-color: #333333; /* Darker text */
+    --r-heading-color: #FFFFFF; /* Dark blue for headings */
+    --r-link-color: #23d2e2; /* Keep accent for links */
+}
+
+.reveal.light-theme {
+    background-color: var(--r-background-color);
+    color: var(--r-main-color);
+}
+
+.reveal.light-theme h1, h2, h3, h4, h5, h6 {
+    color: var(--r-heading-color);
+}
+
+.reveal.light-theme p {
+    color: var(--r-main-color);
+}
+
+.reveal.light-theme a {
+    color: var(--r-link-color);
+}

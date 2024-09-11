@@ -1,0 +1,47 @@
+@import "reveal.js/dist/reveal.css";
+@import "./theme.css";
+
+.tooltip {
+  color: #fff;
+  font-size: 18px;
+  max-width: 28ch;
+  text-align: center;
+}
+.tooltip {
+  /* triangle dimension */
+  --b: 2em; /* base */
+  --h: 1em; /* height */
+
+  --p: 100%; /* triangle position (0%:left 100%:right) */
+  --r: 1.2em; /* the radius */
+  --c: #4ECDC4;
+
+  padding: 1em;
+  border-radius: var(--r) var(--r) min(var(--r),100% - var(--p) - var(--b)/2) min(var(--r),var(--p) - var(--b)/2)/var(--r);
+  clip-path: polygon(0 100%,0 0,100% 0,100% 100%,
+          min(100%,var(--p) + var(--b)/2) 100%,
+          var(--p) calc(100% + var(--h)),
+          max(0%  ,var(--p) - var(--b)/2) 100%);
+  background: var(--c);
+  border-image: conic-gradient(var(--c) 0 0) fill 0/
+            var(--r) calc(100% - var(--p) - var(--b)/2) 0 calc(var(--p) - var(--b)/2)/
+            0 0 var(--h) 0;
+}
+
+
+h1 {
+  font-size: 2.5em;
+  text-align: center;
+  color: #00FFFF !important; // Udacity purple color
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px; /* Add spacing between heading and subtext */
+  margin-top: 0;
+  position: relative;
+  transition: transform 0.8s ease, top 0.8s ease, left 0.8s ease;
+}
+
+p {
+  color: #E0E0E0; /* Brightened subtext */
+  font-weight: bold; /* Make the subtext bold */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
