@@ -15,6 +15,7 @@ export default defineConfig(({ command, mode }) => {
   const API_APP_HOST =
     process.env.APP_HOST || process.env.API_APP_HOST || "0.0.0.0";
   const API_APP_PORT = process.env.APP_PORT || process.env.API_APP_PORT || 3000;
+  const BASE_PREFIX = process.env.BASE_PREFIX || env.BASE_PREFIX || "master-class-udacity/";
   return {
     // vite config
     plugins: [vue()],
@@ -30,7 +31,7 @@ export default defineConfig(({ command, mode }) => {
       __APP_ENV__: JSON.stringify(env.APP_ENV)
     },
     root: "./client/presentation_module",
-    base: "/",
+    base: BASE_PREFIX,
     server: {
       port: VITE_PORT,
       proxy: {
